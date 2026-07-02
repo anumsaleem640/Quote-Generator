@@ -1,0 +1,49 @@
+# ─── Dependencies ───────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Environment files (NEVER commit these) ─────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── Build outputs ──────────────────────────────────────────
+dist/
+build/
+out/
+
+# ─── React Native ───────────────────────────────────────────
+mobile-app/ios/
+mobile-app/android/
+*.keystore
+!debug.keystore
+
+# ─── Logs ───────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Operating System ───────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# ─── Editor files ───────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Testing ────────────────────────────────────────────────
+coverage/
+.nyc_output/
